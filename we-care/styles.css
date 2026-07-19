@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+header {
+    margin-left: 76px;
+    margin-top: 44px;
+
+}
+
+.links-header {
+    margin-right: 23px;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    color: rgba(152,157,156,1)
+}
+
+.btn-1 {
+
+    width: 130px;
+    height: 41px;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    color: rgba(255, 255, 255, 1);
+    background: rgba(102, 90, 225, 1);
+    border: none;
+    border-radius: 30px;
+
+}
+
+img {
+    width: 568px;
+    height: 500px;
+    margin-top: 217px;
+    margin-left: 125px;
+    display: inline-block;    
+}
+
+section {
+    display: inline-block;
+    margin-left: 86px;
+    position: absolute;
+    top: 33%;
+}
+
+h1 {
+    width: 513px;
+    height: 122px;
+    font-weight: 900;
+    font-size: 100px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    color: rgba(81,81,81,1);
+}
+
+h2 {
+    width: 448px;
+    height: 71px;
+    font-weight: 500;
+    font-size: 58px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    color: rgba(81,81,81,1);
+}
+
+p {
+    width: 515px;
+    height: 87px;
+    text-align: justify;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    color: rgba(132, 132, 132, 1);
+    margin-top: 32px;
+    margin-bottom: 65px;
+}
+
+.btn-2 {
+    width: 239px;
+    height: 64px;
+    border-radius: 20.5px;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    color: rgba(0,0,0,1);
+    background: rgba(173, 255, 0, 1);
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    border: none;
+    
+}
+
+@media screen and (max-width:450px){
+
+   
+    header {
+        display: none;
+    }
+
+    p {
+        display: none;
+    }
+
+    img {
+    display: block;
+    width: 95%;
+    max-width: 260px;
+    height: auto;
+    margin: 20px auto 0;
+    
+}
+    
+    section {
+        position: static;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 10px auto 0;
+}
+
+    h1 {
+        height: auto;
+        font-size: 50px;
+        text-align: center;
+        
+    }
+
+    h2 {
+        height: auto;
+        font-size: 30px;
+        text-align: center;
+        margin-bottom: 15px;
+    }
+    
+
+    
+}
+

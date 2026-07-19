@@ -1,0 +1,168 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+}
+
+header {
+    margin-top: 47px;
+    margin-left: 42px;
+}
+
+.links-header {
+    margin-right: 32px;
+    font-size: 14px;
+    line-height: 100%;
+    letter-spacing: 0.88px;
+    text-align: center;
+    color: rgba(23, 35, 61, 1);
+    cursor: pointer;
+}
+
+button {
+    width: 124px;
+    height: 51px;
+    border-radius: 6px;
+    border: none;
+    background: rgba(111, 191, 68, 1);
+    color: rgb(255,255,255);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 100%;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+
+button:hover {
+    opacity: 0.8;
+}
+
+button:active {
+    opacity: 0.6;
+}
+
+img {
+    display: inline-block;
+    width: 595.18px;
+    height: 500px;
+    margin-top: 246px;
+    margin-left: 121px;
+}
+
+section {
+    display: inline-block;
+    margin-left: 84.82px;
+}
+
+h1 {
+    width: 582px;
+    height: 164px;
+    font-weight: 700;
+    font-size: 62px;
+    line-height: 82px;
+    letter-spacing: 0.6px;
+    color: rgba(22, 26, 73, 1);
+}
+
+p {
+    width: 493px;
+    height: 99px;
+    font-size: 18px;
+    line-height: 33px;
+    letter-spacing: 0.5px;
+    color: rgba(75, 80, 90, 1);
+    margin-top: 47px;
+    margin-bottom: 55px;
+}
+
+a {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 100%;
+    letter-spacing: 1px;
+    color: rgba(111, 191, 68, 1);
+    cursor: pointer;
+}
+
+a:hover {
+    opacity: 0.8;
+}
+
+a:active {
+    opacity: 0.6;
+}
+
+@media screen and (max-width: 450px) {
+
+  header {
+    display: flex;
+    justify-content: flex-end;
+    padding: 15px 20px;
+    margin: 0;
+}
+     
+  .links-header {
+    display: none;
+  }
+
+  button {
+    height:31px;
+    width: 91px;
+    margin-bottom: 15px;
+  }
+
+  .container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+  }
+  
+  .flex-container {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: space-between;
+    flex: 1;
+  }
+ 
+  h1 {
+    height:60px;
+    width:auto;
+    font-size: 30px;
+    line-height: 41px;
+  }
+
+  p {
+    height:165px;
+    width:80%;
+    font-size: 16px;
+  }
+
+  a {
+    font-size: 15px;
+    height: 27px;
+    width:112px;
+  }
+
+  img {
+    display: block;
+    width: 80%;
+    max-width:312px;
+    height: auto;
+    margin: 30px auto 10px;
+    
+  }
+
+  section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin: 0 auto;
+    
+  }
+  
+}
