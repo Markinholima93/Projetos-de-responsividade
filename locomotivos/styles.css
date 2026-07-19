@@ -1,14 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
 
 * {
-    box-sizing: content-box;
-    margin: 0px;
-    padding: 0px;
-    background: rgb(253, 207, 121);
-    margin-left: 5px;
-    font-family: 'inter', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
+body {
+    background: rgb(253, 207, 121);
+    font-family: Inter, sans-serif;
+    padding: 10px;
+}
 header {
     margin-left: 27px;
     margin-top: 25px;
@@ -22,8 +24,9 @@ header {
 }
 
 img {
-    width: 395px;
-    height:300px;
+    width: 90%;
+    max-width: 395px;
+    height:auto;
     margin-bottom: 15px;
 }
 
@@ -53,7 +56,7 @@ button {
 }
 
 @media screen and (max-width:375px) {
-
+    
     header {
         display: flex;
         justify-content: center;
@@ -61,7 +64,7 @@ button {
     }
 
     .links-header {
-        font-weight: 100px;
+        font-weight: 400;
         font-size: 12px;
         margin-right: 5px;
         width: 90%;
@@ -72,10 +75,7 @@ button {
         width: 90%;
         max-width: 365px;
         height: auto;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
+       
     }
 
     div {
@@ -98,10 +98,10 @@ button {
         margin-left: 0px;
     }
 
-    button {
-        width: 155px;
-        font-size: 15px;
-        margin-left: 0px;
+    button {    
+        width: 155px; 
+        font-size: 15px; 
+        margin-left: 0px; 
     }
 
 }
